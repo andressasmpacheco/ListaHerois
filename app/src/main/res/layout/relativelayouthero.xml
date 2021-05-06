@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Site das Heroínas poderosas"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:textColor="#01116C"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativelistahero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtListaHero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="Mulher maravilha"
+            android:textSize="25dp"/>
+
+
+        <ImageView
+            android:id="@+id/imglistahero"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/mulherm"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
